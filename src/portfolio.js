@@ -28,28 +28,36 @@ const experiences = [
     time: "May 2021 - Present",
     projects: [
       {
-        name: "Enterprise Data Warehousing",
+        name: "Scalable Web Services",
         description:
-          "Implemented Enterprise Data Warehouse for one of the largest public sector banks in the country. Worked in multiple role varying from writing ETL jobs in SAS and IBM Datastage to Scheduling and Monitoring of jobs in Production environment.",
-        stack: ["IBM Data Architect", "SAS DI", "Oracle Dbeaver"],
-      },
-      {
-        name: "Web service Integration of ML and Django",
-        description:
-          "Developed web services, Django REST api which integrated the data flow from ML pipeline to the existing Business Intelligence Dashboard. Earlier, Business Intelligence team was directly consuming the ML data via REST end points using Excel files, thereby reducing the flexibility to get data insights. Enhanced the BI dashboard which consumed this ML data and provided BI team to easily generate different reports, data insights, etc",
-        stack: ["Python", "Django", "DRF", "sklearn", "Git", "PostgreSQL"],
-      },
-      {
-        name: "Fraud Detection POC",
-        description:
-          "Worked with core FRMS team, discussed various methodologies involving detection of Fraudulent Transactions and accounts. Did POC using various ML algorithms like XGboost, CatBoost, Random Forest on huge datasets. Analysed emsembled models also.",
+          "Lead the end to end development of scalable and robust back-end APIs for the in-house products and multiple clients. Mentored junior developers and helped with code reviews and best practices. Tech stack used Python, Django Rest Framework, PostgreSQL, Elastic Search, Redis, Docker",
         stack: [
-          "sklearn",
-          "numpy",
-          "matplotlib",
-          "pandas",
-          "XGBoost",
-          "Jupyter Notebook",
+          "Python",
+          "Django",
+          "Django Rest Framework",
+          "React",
+          "PostgreSQL",
+          "Elastic Search",
+          "Docker",
+          "Redux",
+          "Redis",
+          "Git",
+        ],
+      },
+      {
+        name: "Infrastructure Provisioning",
+        description:
+          "Automated provisioning and configuring of Infrastructure on Amazon Web Services, using Terraform and Ansible. Reduced the manual effort for provisioning and configuration of services by 99%",
+        stack: [
+          "AWS",
+          "Terraform",
+          "Ansible",
+          "EC2",
+          "PostgreSQL",
+          "Redis",
+          "S3",
+          "VPC",
+          "boto3",
         ],
       },
     ],
