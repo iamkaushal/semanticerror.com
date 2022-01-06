@@ -9,7 +9,7 @@ const about = {
   name: "Kaushal Sharma",
   role: "Software Engineer",
   description:
-    "Long Distance Cylist, Runner and Hobbist Pianist. I love playing chess and building stuff in my free time.",
+    "Long Distance Cylist, Runner and Hobbyist Pianist. I love playing chess and building stuff in my free time.",
   resume: "/resume.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/kaushal-sharma-558681128/",
