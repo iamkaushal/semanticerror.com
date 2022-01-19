@@ -54,6 +54,7 @@ const Navbar = () => {
             <a
               href="https://medium.com/@kaushalsharma880"
               target="_blank"
+              rel="noopener noreferrer"
               onClick={toggleNavList}
               className="link link--nav"
             >
