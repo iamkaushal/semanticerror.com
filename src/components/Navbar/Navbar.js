@@ -1,36 +1,36 @@
-import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../contexts/theme'
+import { useContext, useState } from "react";
+import Brightness2Icon from "@material-ui/icons/Brightness2";
+import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
+import { ThemeContext } from "../../contexts/theme";
 import {
   projects,
   skills,
   contact,
   experiences,
   researches,
-} from '../../portfolio'
-import './Navbar.css'
+} from "../../portfolio";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const [showNavList, setShowNavList] = useState(false);
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
-    <nav className='center nav'>
+    <nav className="center nav">
       <ul
-        style={{ display: showNavList ? 'flex' : null }}
-        className='nav__list'
+        style={{ display: showNavList ? "flex" : null }}
+        className="nav__list"
       >
         {experiences.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#experiences'
+              href="#experiences"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Experiences
             </a>
@@ -38,11 +38,11 @@ const Navbar = () => {
         ) : null}
 
         {projects.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#projects'
+              href="#projects"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Projects
             </a>
@@ -50,11 +50,12 @@ const Navbar = () => {
         ) : null}
 
         {skills.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='https://blog.semanticerror.com'
+              href="https://medium.com/@kaushalsharma880"
+              target="_blank"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Blog
             </a>
@@ -62,11 +63,11 @@ const Navbar = () => {
         ) : null}
 
         {researches.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#researches'
+              href="#researches"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Papers
             </a>
@@ -74,11 +75,11 @@ const Navbar = () => {
         ) : null}
 
         {contact.email ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#contact'
+              href="#contact"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Contact
             </a>
@@ -87,24 +88,24 @@ const Navbar = () => {
       </ul>
 
       <button
-        type='button'
+        type="button"
         onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
-        aria-label='toggle theme'
+        className="btn btn--icon nav__theme"
+        aria-label="toggle theme"
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
       <button
-        type='button'
+        type="button"
         onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
-        aria-label='toggle navigation'
+        className="btn btn--icon nav__hamburger"
+        aria-label="toggle navigation"
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
