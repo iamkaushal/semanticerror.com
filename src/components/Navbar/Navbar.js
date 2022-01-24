@@ -52,7 +52,7 @@ const Navbar = () => {
         {skills.length ? (
           <li className="nav__list-item">
             <a
-              href="https://medium.com/@kaushalsharma880"
+              href="https://blog.semanticerror.com"
               target="_blank"
               rel="noopener noreferrer"
               onClick={toggleNavList}
