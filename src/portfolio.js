@@ -16,7 +16,7 @@ const about = {
     github: "https://github.com/iamkaushal",
     kaggle: "https://www.kaggle.com/imkaushal",
     instagram: "https://www.instagram.com/semantic_error",
-    chess: "https://github.com/iamkaushal",
+    chess: "https://www.chess.com/member/imkaushal",
     strava: "https://www.strava.com/athletes/iamkaushal",
     stackoverflow: "https://stackoverflow.com/users/story/7939593",
   },
