@@ -18,7 +18,7 @@ const about = {
     instagram: "https://www.instagram.com/semantic_error",
     chess: "https://www.chess.com/member/imkaushal",
     strava: "https://www.strava.com/athletes/iamkaushal",
-    stackoverflow: "https://stackoverflow.com/users/story/7939593",
+    stackoverflow: "https://stackoverflow.com/users/7939593/kaushal-sharma",
   },
 };
 
