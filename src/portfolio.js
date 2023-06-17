@@ -5,11 +5,11 @@ const header = {
 };
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
+  //All the properties are optional - can be left empty or deleted
   name: "Kaushal Sharma",
   role: "Software Engineer",
   description:
-    "Long Distance Cylist, Runner and Hobbyist Pianist. I love playing chess and building stuff in my free time.",
+    "Long Distance Cyclist, Runner and Hobbyist Pianist. I love playing chess and building stuff in my free time.",
   resume: "/resume.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/kaushal-sharma-558681128/",
@@ -30,7 +30,7 @@ const experiences = [
       {
         name: "Scalable Web Services",
         description:
-          "Lead the end to end development of scalable and robust back-end APIs for the in-house products and multiple clients. Mentored junior developers and helped with code reviews and best practices. Tech stack used Python, Django Rest Framework, PostgreSQL, Elastic Search, Redis, Docker",
+          "Lead the end-to-end development of scalable and robust back-end APIs for the in-house products and multiple clients. Mentored junior developers and helped with code reviews and best practices. Tech stack used Python, Django Rest Framework, PostgreSQL, Elastic Search, Redis, Docker",
         stack: [
           "Python",
           "Django",
@@ -69,19 +69,19 @@ const experiences = [
       {
         name: "Enterprise Data Warehousing",
         description:
-          "Implemented Enterprise Data Warehouse for one of the largest public sector banks in the country. Worked in multiple role varying from writing ETL jobs in SAS and IBM Datastage to Scheduling and Monitoring of jobs in Production environment.",
+          "Implemented Enterprise Data Warehouse for one of the largest public sector banks in the country. Worked in multiple role varying from writing ETL jobs in SAS and IBM Datastage to Scheduling and Monitoring of jobs in the Production environment.",
         stack: ["IBM Data Architect", "SAS DI", "Oracle Dbeaver"],
       },
       {
         name: "Web service Integration of ML and Django",
         description:
-          "Developed web services, Django REST api which integrated the data flow from ML pipeline to the existing Business Intelligence Dashboard. Earlier, Business Intelligence team was directly consuming the ML data via REST end points using Excel files, thereby reducing the flexibility to get data insights. Enhanced the BI dashboard which consumed this ML data and provided BI team to easily generate different reports, data insights, etc",
+          "Developed web services, Django REST API which integrated the data flow from ML pipeline to the existing Business Intelligence Dashboard. Earlier, the Business Intelligence team was directly consuming the ML data via REST endpoints using Excel files, reducing the flexibility to get data insights. Enhanced the BI dashboard which consumed this ML data and provided the BI team to generate different reports, data insights, etc easily",
         stack: ["Python", "Django", "DRF", "sklearn", "Git", "PostgreSQL"],
       },
       {
         name: "Fraud Detection POC",
         description:
-          "Worked with core FRMS team, discussed various methodologies involving detection of Fraudulent Transactions and accounts. Did POC using various ML algorithms like XGboost, CatBoost, Random Forest on huge datasets. Analysed emsembled models also.",
+          "Worked with core FRMS team, discussed various methodologies involving detection of Fraudulent Transactions and accounts. Worked on POC using various ML algorithms on huge datasets like XGboost, CatBoost, and Random Forest. Analysed ensembled models also.",
         stack: [
           "sklearn",
           "numpy",
@@ -125,7 +125,7 @@ const projects = [
   },
 
   // {
-  //   name: "Haberman's Dataset : Exploratory Data Analysis",
+  //   name: "Haberman's Dataset: Exploratory Data Analysis",
   //   description: '',
   //   stack: [
   //     'Pandas',
@@ -153,10 +153,10 @@ const projects = [
 ];
 
 const researches = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+  //Projects can be added and removed
+  //If there are no projects, the Projects section won't show up
   {
-    name: "Kaushal Sharma, D. Chaudhary,R. Gupta, R. Kapoor. (2018). Voice based application designed for visually impaired people and enabling them to use email services.",
+    name: "Kaushal Sharma, D. Chaudhary, R. Gupta, R. Kapoor. (2018). Voice-based application designed for visually impaired people and enabling them to use email services.",
     description:
       "In Proceedings of the 12th INDIACom; INDIACom-2018; IEEE Conference ID: 42835. 2018 5th International Conference on “Computing for Sustainable Global Development”, New Delhi, India",
     // stack: ['Numpy', 'Pandas', 'Python', 'MatPlotLib'],
