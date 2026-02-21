@@ -1,5 +1,4 @@
 .experience__section {
-  /* border-width: 1px; */
-  border-style: solid;
-  border-color: black;
+  max-width: 800px;
+  margin: 0 auto;
 }

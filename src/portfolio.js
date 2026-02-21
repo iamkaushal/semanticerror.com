@@ -24,31 +24,63 @@ const about = {
 
 const experiences = [
   {
-    company: "Zydelo Inc.",
-    time: "May 2021 - Present",
-    projects: [
+    company: "Unify Technologies",
+    type: "Full-time",
+    location: "Gurugram, Haryana, India · Remote",
+    roles: [
       {
-        name: "Scalable Web Services",
+        title: "Senior Software Engineer",
+        subtitle: "Contingent worker @ Meta",
+        time: "Dec 2023 - Feb 2026 · 2 yrs 3 mos",
         description:
-          "Lead the end-to-end development of scalable and robust back-end APIs for the in-house products and multiple clients. Mentored junior developers and helped with code reviews and best practices. Tech stack used Python, Django Rest Framework, PostgreSQL, Elastic Search, Redis, Docker",
-        stack: [
+          "Core contributor to Aria Studio. Engineered a cross-platform application across Linux, Windows and Mac powered by fast, scalable FastAPI services that held up when it mattered. Built parsers to extract raw VRS file data into usable streams across multiple sensors including IMU, SLAM cameras, RGB camera, audio and GPS from Meta Aria Glasses. Brought that data to life with real-time visualization using Rerun. Contributed to MPS and AR/VR services, building the backend infrastructure behind some of Meta's most ambitious bets.",
+        skills: ["Python", "React.js", "FastAPI", "Rerun"],
+      },
+    ],
+  },
+  {
+    company: "Zydelo",
+    type: "Full-time · 2 yrs 8 mos",
+    location: "Alpharetta, Georgia, United States · Remote",
+    roles: [
+      {
+        title: "Senior Software Engineer",
+        time: "May 2022 - Dec 2023 · 1 yr 8 mos",
+        projects: [
+          {
+            name: "Scalable Web Services",
+            description:
+              "Owned backend development end to end. Architected and shipped high-performance APIs using Python, Django Rest Framework, PostgreSQL, Elasticsearch, Redis and Docker, serving both internal products and external clients without missing a beat. Took junior developers under wing, ran code reviews and built a culture of engineering excellence that outlasted any single project.",
+          },
+        ],
+        skills: [
+          "Docker",
+          "Git",
           "Python",
           "Django",
           "Django Rest Framework",
           "React",
           "PostgreSQL",
-          "Elastic Search",
-          "Docker",
-          "Redux",
+          "Elasticsearch",
           "Redis",
-          "Git",
+          "Redux",
+          "Code Reviews",
+          "Mentoring",
         ],
       },
       {
-        name: "Infrastructure Provisioning",
-        description:
-          "Automated provisioning and configuring of Infrastructure on Amazon Web Services, using Terraform and Ansible. Reduced the manual effort for provisioning and configuration of services by 99%",
-        stack: [
+        title: "Software Engineer",
+        time: "May 2021 - May 2022 · 1 yr 1 mo",
+        projects: [
+          {
+            name: "Infrastructure Provisioning",
+            description:
+              "Eliminated nearly all manual infrastructure work. Built end-to-end automation for provisioning and configuring AWS services using Terraform and Ansible. 99% reduction in manual effort. The kind of work that quietly saves the team thousands of hours and nobody has to think about it again.",
+          },
+        ],
+        skills: [
+          "Docker",
+          "Git",
           "AWS",
           "Terraform",
           "Ansible",
@@ -64,31 +96,62 @@ const experiences = [
   },
   {
     company: "Wipro Limited",
-    time: "July 2019 - May 2021",
-    projects: [
+    type: "Full-time",
+    location: "Gurugram, Haryana, India · On-site",
+    roles: [
       {
-        name: "Enterprise Data Warehousing",
-        description:
-          "Implemented Enterprise Data Warehouse for one of the largest public sector banks in the country. Worked in multiple role varying from writing ETL jobs in SAS and IBM Datastage to Scheduling and Monitoring of jobs in the Production environment.",
-        stack: ["IBM Data Architect", "SAS DI", "Oracle Dbeaver"],
-      },
-      {
-        name: "Web service Integration of ML and Django",
-        description:
-          "Developed web services, Django REST API which integrated the data flow from ML pipeline to the existing Business Intelligence Dashboard. Earlier, the Business Intelligence team was directly consuming the ML data via REST endpoints using Excel files, reducing the flexibility to get data insights. Enhanced the BI dashboard which consumed this ML data and provided the BI team to generate different reports, data insights, etc easily",
-        stack: ["Python", "Django", "DRF", "sklearn", "Git", "PostgreSQL"],
-      },
-      {
-        name: "Fraud Detection POC",
-        description:
-          "Worked with core FRMS team, discussed various methodologies involving detection of Fraudulent Transactions and accounts. Worked on POC using various ML algorithms on huge datasets like XGboost, CatBoost, and Random Forest. Analysed ensembled models also.",
-        stack: [
-          "sklearn",
-          "numpy",
-          "matplotlib",
-          "pandas",
+        title: "Project Engineer",
+        time: "Jul 2019 - May 2021 · 1 yr 11 mos",
+        projects: [
+          {
+            name: "Enterprise Data Warehousing",
+            description:
+              "Delivered an Enterprise Data Warehouse for one of the largest public sector banks in the country, end to end. Didn't stay in one lane. Wrote ETL jobs in SAS and IBM DataStage, managed scheduling, and owned production monitoring. The kind of project where you touch every layer and understand how the whole machine works.",
+          },
+          {
+            name: "Web service Integration of ML and Django",
+            description:
+              "Bridged the gap between machine learning and business intelligence. Built Django REST APIs that connected the ML pipeline directly to the existing BI dashboard, replacing a clunky workflow where the BI team was pulling ML data through Excel files and REST endpoints manually. Result: the BI team went from wrestling with spreadsheets to generating reports, slicing data and pulling insights on demand. Faster decisions, zero bottlenecks.",
+          },
+          {
+            name: "Fraud Detection POC",
+            description:
+              "Worked side by side with the core FRMS team to rethink how fraudulent transactions and accounts get detected. Didn't just discuss methodologies, built a working POC. Ran XGBoost, CatBoost and Random Forest on massive datasets, analysed ensemble models and benchmarked what performed best under real-world conditions. From whiteboard to working prototype.",
+          },
+        ],
+        skills: [
+          "Java",
+          "Git",
+          "SAS",
+          "IBM DataStage",
+          "Python",
+          "Django",
+          "DRF",
           "XGBoost",
-          "Jupyter Notebook",
+          "Oracle",
+        ],
+      },
+    ],
+  },
+  {
+    company: "LawFacto",
+    type: "Internship",
+    location: "New Delhi, India · Remote",
+    roles: [
+      {
+        title: "Software Developer Intern",
+        time: "Jan 2018 - Mar 2018 · 3 mos",
+        description:
+          "Engineered the REST APIs that power the official mobile app and website for the Delhi High Court and Supreme Court of India, delivering court orders, judgments, display boards, bar notifications and event updates to the legal community in real time. The app was officially launched in the presence of Sh. Arun Jaitley, Hon'ble Minister of Finance and Corporate Affairs, Government of India. Code that runs in courtrooms. Doesn't get more real than that.",
+        links: [
+          {
+            label: "Google Play",
+            url: "https://play.google.com/store/apps/details?id=com.auribises.dhcba",
+          },
+          {
+            label: "App Store",
+            url: "https://apps.apple.com/in/app/dhcba-official/id1326761861",
+          },
         ],
       },
     ],

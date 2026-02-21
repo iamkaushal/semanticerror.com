@@ -1,37 +1,105 @@
 .experience__container {
   padding: 2em;
+  margin-bottom: 1.5em;
+  text-align: left;
 }
 
-.experience {
-  padding: 2em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
+.experience__header {
+  margin-bottom: 1.2em;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid var(--clr-fg);
+  opacity: 0.9;
 }
 
-.experience:hover {
-  transform: translateY(-7px);
+.experience__company {
+  margin-bottom: 0.2em;
 }
 
-.experience__description {
-  margin-top: 1em;
+.experience__meta {
+  font-size: 0.85rem;
+  color: var(--clr-fg);
+  opacity: 0.8;
 }
 
-.experience__stack {
+.experience__roles {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.2em 0;
+  flex-direction: column;
+  gap: 1.8em;
 }
 
-.experience__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
+.experience__role {
+  padding-left: 1em;
+  border-left: 2px solid var(--clr-primary);
+}
+
+.experience__role-header {
+  margin-bottom: 0.8em;
+}
+
+.experience__role-title {
+  font-size: 1.1rem;
   color: var(--clr-fg-alt);
 }
 
-.experience .link--icon {
-  margin-left: 0.5em;
+.experience__role-subtitle {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--clr-fg);
+}
+
+.experience__role-time {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--clr-fg);
+  opacity: 0.8;
+  margin-top: 0.2em;
+}
+
+.experience__role-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+}
+
+.experience__project {
+  margin-bottom: 1em;
+}
+
+.experience__project-name {
+  font-size: 0.95rem;
+  color: var(--clr-primary);
+  margin-bottom: 0.3em;
+}
+
+.experience__project-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.experience__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.8em;
+}
+
+.experience__skill {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25em 0.7em;
+  border-radius: 3px;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-primary);
+  box-shadow: var(--shadow);
+}
+
+.experience__links {
+  display: flex;
+  gap: 1em;
+  margin-top: 0.8em;
+}
+
+.experience__link {
+  font-size: 0.85rem;
+  font-weight: 500;
 }
